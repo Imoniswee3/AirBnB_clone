@@ -42,6 +42,19 @@ To set up the project locally, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/airbnb-clone.git
-   cd airbnb-clone
+   git clone https://github.com/imoniswee3/AirBnB_clone.git
+   cd AirBnB_clone
+   ```
+2. **Create a virtual environment**:
+    ```bash
+    sudo apt-get install python3.8-venv
+
+    mkdir airbnb
+    cd airbnb
+    python3 -m venv venv --prompt="airbnb"
+    source venv/bin/activate
+    ```
+3. **Install dependencies**:
+    ```bash
+    pip install -r requirements.txt
 
